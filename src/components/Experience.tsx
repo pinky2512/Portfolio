@@ -3,9 +3,20 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+    company: "AFAD Agency",
+    role: "AI & Digital Solutions Intern",
+    period: "January 2023 - May 2024",
+    achievements: [
+      "Recognized limitations in ad-hoc performance tracking and established data-driven reporting workflows by aggregating web traffic, SEO, and social engagement signals across 8+ brands, improving campaign targeting and content performance by 15%.",
+      "Introduced NLP based content utilities for keyword extraction and sentiment analysis to support AI-assisted content generation, reducing drafting time by ∼30% while improving consistency across client posts.",
+      "Detected performance and SEO degradation patterns and systematically improved website speed and responsiveness, achieving 10–20% gains in load time and search visibility.",
+      "Drove evaluation of AI vs rule based automation approaches with founders, prioritizing solutions based on latency, cost, and maintainability, and enabling 5+ scalable process improvements."
+     ]
+  },
+  {
     company: "Salesforce",
     role: "Salesforce Developer Intern",
-    period: "Apr 2023 – May 2023",
+    period: "April 2023 – May 2023",
     achievements: [
       "Automated CRM workflows using Salesforce Flow + SQL, reducing manual entry by 80% across 10K+ records",
       "Optimized data pipelines and integrated ranking dashboards, accelerating customer insights by 40%",
@@ -25,8 +36,8 @@ const experiences = [
     role: "AICTE AI & ML Intern",
     period: "Mar 2022 – May 2022",
     achievements: [
-      "Designed and deployed predictive ML models on AWS SageMaker to analyze 50K+ workflow transactions",
-      "Identified 10 bottlenecks, reduced processing delays by 15% and optimized deployments for scalability",
+      "Trained and deployed predictive ML models on AWS SageMaker using scikit-learn and XGBoost to analyze 50K+ transactions for forecasting and risk-related use cases.",
+      "Reduced end-to-end inference latency by 15% through Spark ETL optimization, Dockerized deployment, and automated CI/CD pipelines using GitHub Actions.",
     ],
   },
 ];

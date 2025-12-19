@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-slide-up">
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent pb-4">
               Borra Meghana Chowdary
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground">
@@ -31,7 +31,7 @@ const Hero = () => {
               variant="default"
               size="lg"
               className="gap-2 shadow-glow-primary hover:shadow-glow-accent transition-all duration-300"
-              onClick={() => window.open('mailto:mborra@buffalo.edu', '_blank')}
+              onClick={() => window.open('mailto:b.meghana.chowdary02@gmail.com', '_blank')}
             >
               <Mail className="w-5 h-5" />
               Contact Me

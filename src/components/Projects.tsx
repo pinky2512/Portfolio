@@ -4,47 +4,53 @@ import { Code2, TrendingUp, Brain, Accessibility, MessageSquare, CreditCard } fr
 
 const projects = [
   {
-    title: "Personalized AAC System (LLMs for Societal Good)",
+    title: "Emotionally Intelligent AAC System (LLMs for Societal Good)",
     icon: Accessibility,
-    tags: ["Recommender Systems", "RAG", "LangChain", "FAISS"],
-    description: "Built an agentic AI workflow with LangChain, FAISS, and OpenAI Function Calling for empathetic AAC recommendations.",
+    tags: ["LLMs", "RAG", "LangChain", "LangGraph", "PEFT", "NLP"],
+    description:
+      "Architected an LLM-powered AAC system integrating emotion-aware retrieval and response generation using Empathetic Dialogues and GoEmotions datasets.",
     achievements: [
-      "Fine-tuned LLMs with RAG (90K+ dialogues)",
-      "Improved personalization by 18%",
-      "Achieved 80% human-rated satisfaction",
+      "Integrated emotion-aware RAG pipelines using LangChain and LangGraph",
+      "Improved response quality by 18% over baselines using multi-metric evaluation",
+      "Achieved 80% human-rated satisfaction in personalization and emotional relevance",
     ],
     githubUrl: "https://github.com/pinky2512/AAC-System",
   },
   {
-    title: "RL Algorithm Benchmarking",
+    title: "RL Algorithm Benchmarking (Discrete & Continuous Spaces)",
     icon: TrendingUp,
-    tags: ["Reinforcement Learning", "Policy Optimization"],
-    description: "Benchmarked 6 algorithms across 1M+ steps on multiple environments including CartPole, LunarLander, and CarRacing.",
+    tags: ["Reinforcement Learning", "DQN", "DDQN", "PPO", "A2C", "DDPG", "SAC"],
+    description:
+      "Constructed a benchmarking framework to evaluate reinforcement learning algorithms across discrete and continuous control environments.",
     achievements: [
-      "DDQN improved stability with 25% faster convergence",
-      "PPO/A2C/DDPG outperformed by 30–40% in cumulative reward",
+      "Evaluated 6 RL algorithms across 1M+ environment steps",
+      "DDQN achieved 25% faster convergence on discrete tasks",
+      "PPO/A2C/DDPG delivered 30–40% higher cumulative rewards in continuous environments",
     ],
     githubUrl: "https://github.com/pinky2512/RL-Benchmarking",
   },
   {
     title: "NYC Taxi Ride Demand Forecasting",
     icon: Code2,
-    tags: ["Real-Time ML", "MLOps", "Hopsworks", "MLflow"],
-    description: "Designed a retrieval + ranking pipeline processing 100M+ trips using modern MLOps practices.",
+    tags: ["Time Series", "MLOps", "Hopsworks", "MLflow", "AWS SageMaker"],
+    description:
+      "Built an end-to-end demand forecasting pipeline processing large-scale taxi trip data using modern MLOps practices.",
     achievements: [
-      "Deployed real-time recommendation models on AWS/Azure",
-      "Reduced reporting time by 6+ hrs/week",
+      "Processed 100M+ trips using Hopsworks Feature Store and MLflow",
+      "Automated retraining and deployment via GitHub Actions CI/CD",
+      "Delivered a Streamlit dashboard reducing reporting time by 6+ hours/week",
     ],
     githubUrl: "https://github.com/pinky2512/NYC-Taxi-Forecasting",
   },
   {
     title: "Sign-Based Personal Assistant",
     icon: Brain,
-    tags: ["Computer Vision", "CNN", "LSTM", "Accessibility"],
-    description: "Built real-time gesture-to-text assistant with CNN + LSTM for accessibility.",
+    tags: ["Computer Vision", "CNN", "LSTM", "Accessibility", "Azure ML"],
+    description:
+      "Engineered a real-time sign-language recognition system optimized for low-latency accessibility use cases.",
     achievements: [
-      "Achieved 95% accuracy with <300ms latency",
-      "Integrated LangChain + AutoGen for multimodal workflows",
+      "Achieved 95% accuracy across 10K+ gesture samples",
+      "Optimized inference latency to below 300ms for real-time interaction",
     ],
     githubUrl: "https://github.com/pinky2512/Sign-Language-Assistant",
   },

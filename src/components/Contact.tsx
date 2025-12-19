@@ -22,10 +22,10 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-muted-foreground">Email</p>
                 <a
-                  href="mailto:mborra@buffalo.edu"
+                  href="mailto:b.meghana.chowdary02@gmail.com"
                   className="text-foreground hover:text-primary transition-colors"
                 >
-                  mborra@buffalo.edu
+                  b.meghana.chowdary02@gmail.com
                 </a>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Contact = () => {
           <div className="flex gap-4 justify-center">
             <Button
               className="gap-2 shadow-glow-primary hover:shadow-glow-accent transition-all duration-300"
-              onClick={() => window.open('mailto:mborra@buffalo.edu', '_blank')}
+              onClick={() => window.open('mailto:b.meghana.chowdary02@gmail.com', '_blank')}
             >
               <Mail className="w-4 h-4" />
               Send Email

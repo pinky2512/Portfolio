@@ -3,32 +3,67 @@ import { Badge } from "@/components/ui/badge";
 
 const skillCategories = [
   {
-    title: "Programming & Scripting",
-    skills: ["Python", "C++", "Java", "C", "JavaScript", "SQL"],
+    title: "Programming Languages",
+    skills: ["Python", "SQL", "Java", "C"],
   },
   {
     title: "Machine Learning",
-    skills: ["scikit-learn", "XGBoost", "LightGBM", "Logistic Regression", "SVM", "Ensemble Methods", "KMeans", "DBSCAN"],
+    skills: [
+      "scikit-learn",
+      "LightGBM",
+      "XGBoost",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Feature Engineering",
+      "Model Evaluation",
+    ],
   },
   {
-    title: "Deep Learning & NLP",
-    skills: ["PyTorch", "TensorFlow", "Keras", "Transformers", "SpaCy", "NLTK", "RNN/LSTM", "CNNs", "GloVe"],
+    title: "Deep Learning & Computer Vision",
+    skills: ["PyTorch", "TensorFlow", "CNNs", "RNN/LSTM"],
   },
   {
-    title: "Recommender Systems",
-    skills: ["Retrieval", "Ranking", "Embedding Models", "Personalization Pipelines", "NDCG"],
+    title: "Reinforcement Learning",
+    skills: [
+      "DQN",
+      "DDQN",
+      "PPO",
+      "A2C",
+      "DDPG",
+      "SAC",
+      "Discrete & Continuous Control",
+    ],
   },
   {
-    title: "Generative AI & LLMs",
-    skills: ["Prompt Engineering", "Fine-tuning", "RAG", "LangChain", "LangGraph", "Pydantic AI"],
+    title: "LLMs & NLP",
+    skills: [
+      "RAG",
+      "PEFT",
+      "Prompt Engineering",
+      "LangChain",
+      "LangGraph",
+      "Embedding Models",
+    ],
   },
   {
-    title: "MLOps & Data Engineering",
-    skills: ["Hopsworks", "MLflow", "DagsHub", "GitHub Actions", "Docker", "AWS", "Azure ML", "Spark", "Hadoop"],
+    title: "MLOps & ML Systems",
+    skills: [
+      "Hopsworks Feature Store",
+      "MLflow",
+      "Model Versioning",
+      "Pipeline Orchestration",
+      "Docker",
+      "GitHub Actions",
+      "Spark",
+    ],
   },
   {
-    title: "Visualization & Tools",
-    skills: ["Streamlit", "matplotlib", "Jupyter", "Google Colab", "Agile/Scrum"],
+    title: "Cloud & Deployment",
+    skills: ["AWS SageMaker", "Azure ML"],
+  },
+  {
+    title: "Visualization",
+    skills: ["Streamlit", "matplotlib"],
   },
 ];
 
