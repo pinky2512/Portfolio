@@ -2,69 +2,27 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 const skillCategories = [
-  {
-    title: "Programming Languages",
-    skills: ["Python", "SQL", "Java", "C"],
+   {
+    title: "LLMs & Agentic AI",
+    skills: ["LangGraph", "LangChain", "Google ADK", "RAG Pipelines", "Prompt Engineering", "Multi Agent Systems"],
   },
   {
-    title: "Machine Learning",
-    skills: [
-      "scikit-learn",
-      "LightGBM",
-      "XGBoost",
-      "Supervised Learning",
-      "Unsupervised Learning",
-      "Feature Engineering",
-      "Model Evaluation",
-    ],
+    title: "ML & Deep Learning",
+    skills: ["Transformers", "Time-Series Modeling", "PEFT/LoRA", "Embedding Models"],
   },
   {
-    title: "Deep Learning & Computer Vision",
-    skills: ["PyTorch", "TensorFlow", "CNNs", "RNN/LSTM"],
+    title: "MLOps",
+    skills: ["Docker", "Kubernetes", "MLflow", "CI/CD", "Model Serving", "Experiment Tracking"],
   },
   {
-    title: "Reinforcement Learning",
-    skills: [
-      "DQN",
-      "DDQN",
-      "PPO",
-      "A2C",
-      "DDPG",
-      "SAC",
-      "Discrete & Continuous Control",
-    ],
+    title: "Frameworks & Libraries",
+    skills: ["PyTorch", "TensorFlow", "Keras", "scikit-learn", "pandas", "NumPy", "OpenCV", "TFLite", "Flask", "FastAPI"],
   },
   {
-    title: "LLMs & NLP",
-    skills: [
-      "RAG",
-      "PEFT",
-      "Prompt Engineering",
-      "LangChain",
-      "LangGraph",
-      "Embedding Models",
-    ],
+    title: "Cloud & Data Infrastructure",
+    skills: ["AWS (EC2, Lambda, S3)", "GCP", "Redis", "PySpark"],
   },
-  {
-    title: "MLOps & ML Systems",
-    skills: [
-      "Hopsworks Feature Store",
-      "MLflow",
-      "Model Versioning",
-      "Pipeline Orchestration",
-      "Docker",
-      "GitHub Actions",
-      "Spark",
-    ],
-  },
-  {
-    title: "Cloud & Deployment",
-    skills: ["AWS SageMaker", "Azure ML"],
-  },
-  {
-    title: "Visualization",
-    skills: ["Streamlit", "matplotlib"],
-  },
+  
 ];
 
 const Skills = () => {

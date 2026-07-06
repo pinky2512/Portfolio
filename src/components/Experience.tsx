@@ -3,9 +3,29 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+  company: "Colaberry",
+  role: "AI Engineer",
+  period: "August 2024 - December 2025",
+  achievements: [
+    "Built a semantic candidate-to-job matching system using Sentence Transformers, FAISS, and spaCy to rank candidates against 500+ job descriptions, outperforming keyword-based search by 20% in match precision",
+    "Formulated a skill-gap analysis and learning-path recommendation module using cosine similarity and embedding models to identify missing competencies across 10+ skill domains and recommend relevant training courses"
+  ]
+  },
+  {
+  company: "Twinly",
+  role: "Founding AI Engineer",
+  period: "March 2025 - July 2025",
+  achievements: [
+    "Architected an AI-powered cognitive twin platform automating task management and communication workflows via Gmail, Slack, and Notion integration, reducing context-switching by 35% for early adopters",
+    "Designed RAG pipelines and a knowledge graph using vector embeddings for persistent, personalized AI responses, reducing irrelevant responses by 30% over baseline",
+    "Fine-tuned Phi-3 agentic models with telemetry-driven feedback loops and reinforcement signals, improving action relevance and long-term memory recall by 30% across personalized user sessions",
+    "Containerized and deployed scalable microservices with FastAPI and PostgreSQL on AWS, achieving 98% uptime with low-latency data sync across distributed cloud environments"
+  ]
+  },
+  {
     company: "AFAD Agency",
     role: "AI & Digital Solutions Intern",
-    period: "January 2023 - May 2024",
+    period: "August 2022 - July 2024",
     achievements: [
       "Recognized limitations in ad-hoc performance tracking and established data-driven reporting workflows by aggregating web traffic, SEO, and social engagement signals across 8+ brands, improving campaign targeting and content performance by 15%.",
       "Introduced NLP based content utilities for keyword extraction and sentiment analysis to support AI-assisted content generation, reducing drafting time by ∼30% while improving consistency across client posts.",

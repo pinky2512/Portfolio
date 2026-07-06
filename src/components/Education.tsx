@@ -24,7 +24,7 @@ const Education = () => {
                   University at Buffalo
                 </h3>
                 <span className="text-sm text-muted-foreground">
-                  Aug 2024 – Dec 2026
+                  Aug 2024 – Jan 2026
                 </span>
               </div>
               <p className="text-lg text-primary font-medium mb-2">

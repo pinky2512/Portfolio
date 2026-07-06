@@ -17,7 +17,7 @@ const Hero = () => {
               AI/ML Engineer & Research Enthusiast
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Specializing in LLMs, Recommender Systems, and MLOps. Currently pursuing MS in Engineering Science (AI) at University at Buffalo.
+              Specializing  in LLMs, Agentic AI, Deep Learning, and MLOps for end-to-end ML systems. MS in Engineering Science (AI), University at Buffalo — Class of 2026.
             </p>
             <div className="pt-4 pb-2">
               <p className="text-base text-foreground max-w-3xl mx-auto leading-relaxed">

@@ -4,6 +4,19 @@ import { Code2, TrendingUp, Brain, Accessibility, MessageSquare, CreditCard } fr
 
 const projects = [
   {
+  title: "ECG Cardiovascular Risk Stratification System",
+  icon: "HeartPulse",
+  tags: ["CNN", "Transformer", "Deep Learning", "FastAPI", "Docker", "Grad-CAM"],
+  description:
+    "Built a deep learning pipeline that stratifies patients into Low/Medium/High cardiovascular risk from raw 12-lead ECG signals, framing risk prediction as a clinical triage problem rather than simple rhythm classification.",
+  achievements: [
+    "Constructed an ECG risk classification pipeline using CNN to extract heartbeat patterns and Transformer to capture rhythm across 21,837 records, achieving 76% high-risk detection rate",
+    "Partitioned data at the patient level across 18,885 patients to prevent data leakage and addressed class imbalance",
+    "Packaged the trained model as a Dockerized FastAPI and Streamlit application with Grad-CAM explanations for interpretability"
+  ],
+  githubUrl: "https://github.com/pinky2512/ECG-Risk-Stratification",
+  },
+  {
     title: "Emotionally Intelligent AAC System (LLMs for Societal Good)",
     icon: Accessibility,
     tags: ["LLMs", "RAG", "LangChain", "LangGraph", "PEFT", "NLP"],
